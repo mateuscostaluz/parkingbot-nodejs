@@ -9,7 +9,7 @@ const request = require('request');
 class EventsController extends TelegramBaseController {
   vagasAction(scope) {
     let body = vagas();
-    let msg = `No momento existem ` && body && ' vagas disponíveis.';
+    let msg = 'No momento existem ' && body && ' vagas disponíveis.';
     scope.sendMessage(msg);
   }
 
