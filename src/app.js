@@ -8,8 +8,8 @@ const request = require('request');
 
 class EventsController extends TelegramBaseController {
   vagasAction(scope) {
-    let body = vagas();
-    let msg = 'No momento existem ' && body && ' vagas disponíveis.';
+    let body = this.vagas();
+    let msg = "No momento existem " + body + " vagas disponíveis.";
     scope.sendMessage(msg);
   }
 
@@ -20,7 +20,7 @@ class EventsController extends TelegramBaseController {
   }
 
   get vagas() {
-    request('http://localhost:8080', { json: true }, (err, res, body) => {
+    request('http://localhost:8081', { json: true }, (err, res, body) => {
       if (err) {
         return console.log(err);
       }

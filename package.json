@@ -12,7 +12,8 @@
   "author": "Mateus Luz",
   "license": "ISC",
   "dependencies": {
-    "request": "^2.81.0",
+    "balanced-match": "^1.0.0",
+    "request": "^2.88.0",
     "telegram-node-bot": "^4.0.5"
   }
 }
