@@ -1,11 +1,11 @@
 # ParkingGo
 
+
 ParkingGo é uma aplicação criada com o intuito de obter o número de vagas disponíveis em uma determinada localização, através do reconhecimento de padrões de automóveis, em imagens obtidas em tempo real por uma câmera fixada.
 
-(https://github.com/Elfocus/parkingbot-nodejs/blob/master/ParkingGo.jpg)
+![](https://github.com/Elfocus/parkingbot-nodejs/blob/master/ParkingGo.jpg)
 
 ## Installation
-
 
 
 ```bash
