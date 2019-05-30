@@ -1,10 +1,12 @@
 # ParkingGo
 
-ParkingGo é uma aplicação criada com o intuito de obter o número de vagas disponíveis em uma determinada localização, através do reconhecimento de padrões de automóveis, em imagens obtidas em tempo real por uma câmera fixada.
+ParkingGo Ã© uma aplicaÃ§Ã£o criada com o intuito de obter o nÃºmero de vagas disponÃ­veis em uma determinada localizaÃ§Ã£o, atravÃ©s do reconhecimento de padrÃµes de automÃ³veis, em imagens obtidas em tempo real por uma cÃ¢mera fixada.
+
+(https://github.com/Elfocus/parkingbot-nodejs/blob/master/ParkingGo.jpg)
 
 ## Installation
 
-Baixe o código responsável  [Vasco da Gama](https://pip.pypa.io/en/stable/) to install foobar.
+
 
 ```bash
 pip install foobar
