@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "balanced-match": "^1.0.0",
+    "npm": "^6.9.0",
     "request": "^2.88.0",
     "telegram-node-bot": "^4.0.5"
   }
