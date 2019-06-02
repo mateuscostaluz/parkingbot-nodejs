@@ -1,7 +1,7 @@
-# ParkingGo
+# parkingbot
 
 
-ParkingGo é uma aplicação criada com o intuito de obter o número de vagas disponíveis em uma determinada localização, através do reconhecimento de padrões de automóveis, em imagens obtidas em tempo real por uma câmera fixada.
+Aplicação criada com o intuito de informar ao usuário o número de vagas disponíveis em uma determinada localização, através da integração com sistemas de análise de imagens e reconhecimento de padrões (de automóveis), com o uso de visão computacional e machine learning.
 
 ![](https://github.com/Elfocus/parkingbot-nodejs/blob/master/ParkingGo.jpg)
 
@@ -9,23 +9,11 @@ ParkingGo é uma aplicação criada com o intuito de obter o número de vagas di
 
 
 ```bash
-pip install foobar
+npm install
 ```
 
 ## Usage
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+```nodejs
+node app.js
 ```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
