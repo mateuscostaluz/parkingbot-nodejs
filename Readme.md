@@ -13,5 +13,5 @@ npm install
 ## Usage
 
 ```nodejs
-node app.js
+node src/app.js
 ```
